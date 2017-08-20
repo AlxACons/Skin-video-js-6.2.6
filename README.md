@@ -8,7 +8,7 @@ New skin video-js-6.2.6
 <script src="video-js-6.2.6/video.js"></script>
 
 <video id="player" 
-class="video-js vjs-default-skin" 
+class="video-js" 
 controls preload="none" 
 width="960" 
 height="400" 
