@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+<title>Video.js | HTML5 Video Player</title>
+    
+<link href="video-js-6.2.6/video-js.css" rel="stylesheet">
+<script src="video-js-6.2.6/video.js"></script>
+
+<link href="video-js-6.2.6/watermark.css" rel="stylesheet">
+<script src="video-js-6.2.6/Youtube.js"></script>
+<script src="video-js-6.2.6/watermark.js"></script>
+
+</head>
+<body>
+
+
+<video id="play" class="video-js"></video>
+<script>
+var Player = videojs("play", { 
+"controls": true, 
+"autoplay": false, 
+"preload": "auto" ,
+"poster": "video-js-6.2.6/oceans.png",
+"width": 960,
+"height": 400,
+"techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=xjS6SftYQaQ"}],
+});
+videojs('play').watermark({
+   file: 'video-js-6.2.6/your-logo.png',
+   clickable: true,
+   url: "https://www.google.com.br/?gws_rd=cr&ei=r6lbWYO9KMfqmAHy6Ir4Dw",
+       });
+
+</script>
+
+</body>
+</html>
