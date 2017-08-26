@@ -27,7 +27,8 @@
 .video-js .vjs-control-bar .vjs-VR-control {
     cursor: pointer;
     line-height: 40px;
-    font-size: 1.3em
+    font-size: 1.3em;
+    top: -0em;
 }
 
 .video-js .vjs-control-bar .vjs-VR-control::before {
