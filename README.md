@@ -1,11 +1,11 @@
-# video.js-6.2.7
-New skin video-js-6.2.7
+# video.js-6.2.6
+New skin video-js-6.2.6
 <img src="https://raw.githubusercontent.com/maluklo/Skin-video-js-6.2.6/master/video-js.png">
 ### Quick Start
 
 ```html
-<link href="video-js-6.2.7/video-js.css" rel="stylesheet">
-<script src="video-js-6.2.7/video.js"></script>
+<link href="video-js-6.2.6/video-js.css" rel="stylesheet">
+<script src="video-js-6.2.6/video.js"></script>
 
 <video id="player" 
 class="video-js" 
@@ -22,8 +22,8 @@ data-setup="{}">
 ### Or
 
 ```html
-<link href="video-js-6.2.7/video-js.css" rel="stylesheet">
-<script src="video-js-6.2.7/video.js"></script>
+<link href="video-js-6.2.6/video-js.css" rel="stylesheet">
+<script src="video-js-6.2.6/video.js"></script>
 
 <video id="player" class="video-js"></video>
 <script>
