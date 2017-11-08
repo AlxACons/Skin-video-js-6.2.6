@@ -1,39 +1,42 @@
-.video-js .vjs-resolution-button {
-    font-family: VideoJS;
-    width: 4em;
-    left: -.4em
+.vjs-resolution-button .vjs-icon-placeholder:before{
+content: '\f110';
+font-family:VideoJS;
+font-weight:400;
+font-style:normal;
+line-height:1.67em;
+width: 1.8em;
 }
-
-.video-js .vjs-resolution-button .vjs-resolution-button-staticlabel:before {
-    content: '\f110';
-    font-size: 1.5em;
-    line-height: 2em;
+.vjs-resolution-button-label{
+display:none
 }
-
-.video-js .vjs-resolution-button .vjs-resolution-button-label {
-    font-size: 1em;
-    line-height: 3em;
-    position: absolute;
-    top: 0;
-    left: 0.2em;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    box-sizing: inherit;
-    font-family: Arial, Helvetica, sans-serif;
+.vjs-resolution-button,.vjs-menu li{
+text-transform:none;
+outline: none;
 }
+.vjs-resolution-button,
+.vjs-menu li.vjs-selected,
+.vjs-menu li.vjs-selected:focus,
+.vjs-menu li.vjs-selected:hover{
+background-color:#ffffff;
+color:#000000;
+outline:none;
 
-.video-js .vjs-resolution-button ul.vjs-menu-content {
-    width: 5em!important
 }
-
-.video-js .vjs-resolution-button .vjs-menu {
-    left: 0px;
-    top: ;
+.vjs-resolution-button,.vjs-menu li{
+list-style:none;
+margin:0;
+padding:.2em 0;
+line-height:1.4em;
+font-size:1em;
+text-align:center;
+text-transform:none;
 }
-
-.video-js .vjs-resolution-button .vjs-menu li {
-    text-transform: none;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif
+.vjs-resolution-button,
+.vjs-menu .vjs-menu-content{
+display:block;
+padding:0;
+margin:0;
+font-family:Arial,Helvetica,sans-serif;overflow:auto;
+box-sizing:content-box;
+left:-0.em
 }
